@@ -1,5 +1,7 @@
 body {
     font-family: 'Open Sans';
+    background: var(--primary-color);
+    color: var(--secondary-color);
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
@@ -12,30 +14,46 @@ header {
     align-items: center;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
 li {
     display: inline-block;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
 }
 
-main {
+#secao-1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 50px;
+    gap: 20px;
+}
+
+h1.boas-vindas {
+    margin-top: 0px;
+}
+
+article, aside {
+    flex: 1;
+    width: 50%;
+    font-size: 20px;
 }
 
 img {
-    height: 580px;
-}
-
-p {
-    line-height: 20px;
-    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
 
 .blog {
@@ -43,4 +61,23 @@ p {
     flex-direction: column;
     justify-content: space-between;
     margin-top: 50px;
+}
+
+.botao {
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.boas-vindas {
+    font-size: 36px;
+}
+
+p.boas-vindas {
+    font-size: 36px;
+    color: var(--secondary-light-color);
+}
+
+p.texto {
+    margin: 0;
 }
