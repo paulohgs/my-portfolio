@@ -10,8 +10,12 @@
         padding-left: 0;
     }
 
-    section {
+    #secao-1 {
         flex-direction: column;
+    }
+
+    #descricao, #foto-descricao {
+        width: 100%;
     }
 
     img {

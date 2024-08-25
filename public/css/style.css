@@ -14,6 +14,16 @@ header {
     align-items: center;
 }
 
+#logo {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 36px;
+    text-decoration: none;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -24,11 +34,6 @@ ul {
 li {
     display: inline-block;
     margin: 0 20px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--secondary-color);
 }
 
 #secao-1 {
@@ -44,7 +49,7 @@ h1.boas-vindas {
     margin-top: 0px;
 }
 
-article, aside {
+#descricao, #foto-descricao {
     flex: 1;
     width: 50%;
     font-size: 20px;
@@ -64,9 +69,27 @@ article, aside {
 }
 
 .botao {
+    text-decoration: none;
+    color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
     border-radius: 15px;
     padding: 20px;
+}
+
+.botao.active {
+    background-color: var(--secondary-light-color);
+    color: var(--darkest-color);
+    outline: none;
+}
+
+.botao:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+a {
+    color: var(--secondary-color);
 }
 
 .boas-vindas {
@@ -80,4 +103,20 @@ p.boas-vindas {
 
 p.texto {
     margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    user-select: none;
+}
+
+.rede-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 20px;
+    align-items: center;
+    cursor: pointer;
 }
