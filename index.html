@@ -13,43 +13,73 @@
   </head>
   <body>
     <header>
-      <div id="logo">
-        <h1>Ph</h1>
-      </div>
+      <a id="logo" href="#">
+        Ph
+      </a>
       <ul>
-        <a href="#boas-vindas" class="botao">
+        <a href="#boas-vindas" class="botao" id="home-btn">
           <li>Sobre</li>
         </a>
-        <a href="pages/blog.html" class="botao">
+        <a href="pages/blog.html" class="botao" id="blog-btn">
           <li>Blog</li>
         </a>
-        <a href="pages/projects.html" class="botao">
+        <a href="pages/projects.html" class="botao" id="projects-btn">
           <li>Projetos</li>
         </a>
       </ul>
     </header>
     <main>
       <section id="secao-1">
-        <article>
+        <article id="descricao">
           <h1 class="boas-vindas">Olá pessoas!</h1>
           <p class="boas-vindas">
             Eu sou Paulo Henrique, mas podem me chamar de PH.
           </p>
-          <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed finibus erat. Nam iaculis bibendum lacinia. 
-            Mauris eget tempus mauris. <br> <br>
-            Ut scelerisque ultrices laoreet. Aenean quis nisi ligula. Etiam ante nulla, scelerisque quis mi id, porttitor maximus orci.
-            Integer sit amet condimentum lectus.
-            In ultrices mi ut ullamcorper fringilla. Donec vitae dictum ligula, vel gravida neque. Nunc ornare mattis eros. Proin vel pulvinar erat. <br> <br>
-            Phasellus libero odio, pretium vitae lacus sed, euismod hendrerit sapien. Proin nec mattis diam, varius mattis orci. Donec dictum nibh sapien, at suscipit metus suscipit at.
+          <p>
+            Tenho 4 anos de experiência em <strong>desenvolvimento de software</strong>, com foco em práticas ágeis e desenvolvimento de aplicativos móveis nativos para iOS, adquiridos na Apple Developer Academy. Aprendi a integrar UX/UI e processos de CI/CD no ciclo de vida do produto.
+          </p>
+          <p>
+            Também atuei como <strong>desenvolvedor web</strong>, focado em back-end, contribuindo para o sistema de competição de capoeira no <strong>Projeto Capoeira e Educação</strong>.
+          </p>
+          <p>
+            Atualmente, sou voluntário no <strong>Grupo de Interesse Ambiental - GIA</strong>, onde produzo conteúdo para redes sociais e analiso dados para o planejamento estratégico do grupo.
+          </p>
+          <p>
+            Curte ler? Que tal dar uma olhadinha no meu <a href="/pages/blog.html">blog</a>!
+          </p>
+          <p>
+            Buscando ideias, ou curioso para saber o que contruo e já construí? Dá uma olhada nos meus <a href="/pages/projects.html">projetos</a>!
           </p>
         </article>
-        <aside>
+        <aside id="foto-descricao">
           <img id="profile-pic" src="public/assets/img/profile-pic.jpg" alt="">
         </aside>
       </section>
+      <section id="redes-sociais">
+        <header>
+          <h2>
+            Minhas redes:
+          </h2>
+        </header>
+        <div class="rede-social">
+          <a href="https://github.com/paulohgs" target="_blank">
+            <img width="64px" src="/public/assets/img/github-mark-white.png" alt="octocat da plataforma github">
+          </a>
+          <a href="https://linkedin.com/in/paulohgsft" target="_blank">
+            <img width="64px" src="/public/assets/img/linkedin.png" alt="marca do linkedin">
+          </a>
+          <a href="https://dev.to/paulohgs" target="_blank">
+            <img width="64px" src="/public/assets/img/dev-rainbow.png" alt="logo da DEV">
+          </a>
+          <a href="https://medium.com/@paulohgs" target="_blank">
+            <img width="64px" src="/public/assets/img/medium.png" alt="logo do medium">
+          </a>
+        </div>
+      </section>
     </main>
     <footer>
-      
+      &copy; 2024 Paulo Henrique. Todos os direitos reservados.
     </footer>
+    <script src="/public/scripts/script.js"></script>
   </body>
 </html>
