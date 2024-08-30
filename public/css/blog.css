@@ -1,0 +1,23 @@
+#galeria-artigos {
+	display: flex;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+#artigo {
+	display: flex;
+	flex-direction: column;
+	background: var(--secondary-color);
+	color: var(--primary-color);
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+#imagem-artigo {
+	border-radius: 10px;
+}
+
+#titulo-artigo, #resumo-artigo {
+	margin-bottom: 0;
+}
