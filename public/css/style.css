@@ -7,7 +7,7 @@ body {
     padding: 15px;
 }
 
-header {
+#navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

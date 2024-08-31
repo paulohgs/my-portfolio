@@ -1,0 +1,20 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "author": "Ph",
+            "title": "Titulo do artigo",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis ornare aliquam. Suspendisse potenti. Sed tristique leo sit amet nibh scelerisque, vel laoreet diam sodales. Integer at augue ac velit ullamcorper suscipit. Aenean cursus commodo libero ac blandit. Pellentesque sit amet dapibus magna, vitae convallis ante.</p> <p>Aliquam blandit vel est vel dignissim. Nunc vitae sagittis est. Quisque egestas pulvinar semper. Mauris ac ligula euismod, accumsan orci sit amet, fringilla arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris porta risus ut ligula egestas, quis accumsan dolor placerat. Duis at auctor nulla. Nulla eu urna ex. Praesent quis orci non ante consequat hendrerit. Praesent pharetra ligula sit amet massa consequat, a elementum lacus luctus. Vestibulum accumsan magna sit amet diam mattis, eget dapibus ligula consequat. Fusce tempor pulvinar quam, at tincidunt arcu maximus et. Duis efficitur nibh sapien, in maximus risus lacinia ut. Quisque pulvinar augue id vehicula congue. Suspendisse rhoncus neque neque, vel gravida enim semper sed. Nam dapibus hendrerit dui, quis tempus tortor finibus in.</p>",
+            "img": "https://placehold.co/300x150",
+            "description": "esta é a descricao desse artigo"
+        },
+        {
+            "id": "2",
+            "author": "Ph",
+            "title": "Titulo do artigo",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis ornare aliquam. Suspendisse potenti. Sed tristique leo sit amet nibh scelerisque, vel laoreet diam sodales. Integer at augue ac velit ullamcorper suscipit. Aenean cursus commodo libero ac blandit. Pellentesque sit amet dapibus magna, vitae convallis ante.</p> <p>Aliquam blandit vel est vel dignissim. Nunc vitae sagittis est. Quisque egestas pulvinar semper. Mauris ac ligula euismod, accumsan orci sit amet, fringilla arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris porta risus ut ligula egestas, quis accumsan dolor placerat. Duis at auctor nulla. Nulla eu urna ex. Praesent quis orci non ante consequat hendrerit. Praesent pharetra ligula sit amet massa consequat, a elementum lacus luctus. Vestibulum accumsan magna sit amet diam mattis, eget dapibus ligula consequat. Fusce tempor pulvinar quam, at tincidunt arcu maximus et. Duis efficitur nibh sapien, in maximus risus lacinia ut. Quisque pulvinar augue id vehicula congue. Suspendisse rhoncus neque neque, vel gravida enim semper sed. Nam dapibus hendrerit dui, quis tempus tortor finibus in.</p>",
+            "img": "https://placehold.co/300x150",
+            "description": "esta é a descricao desse artigo"
+        }
+    ]
+}
